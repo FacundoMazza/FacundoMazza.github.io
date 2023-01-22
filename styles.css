@@ -1,0 +1,190 @@
+body{
+    margin: 0px;
+    background-color: rgba(244, 247, 68, 0.637);
+}
+
+/* navbar */
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    margin-bottom: 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    background-color: rgba(0, 0, 0, 0.747);
+}
+
+.navbar-logo{
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+   
+}
+
+.ver-carrito{
+    font-size: 35px;
+    margin-right:20px ;
+    margin-top: 3vh;
+    cursor: pointer;
+    
+}
+
+
+.banner{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: url(./img/banner.jpeg);
+}
+
+.banner-container{
+    text-align: center;
+    padding: 20%;
+}
+
+.banner h1 {
+    font-size: 60px;
+    margin: 0;
+    color:white;
+    text-shadow: 2px 2px 4px black;
+}
+.banner h2 {
+    font-size:35px ;
+    margin: 0;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.contenedor-cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap ;
+    margin: 30px 90px;
+
+}
+
+.card{
+    width: 100%;
+    box-shadow: 0 4px 6px 0 black ;
+    max-width: 300px;
+    margin: 1%;
+    text-align: center;
+    font-family: arial;
+    background-color: bisque;
+}
+
+.card  img{
+    width: 90%;
+    height: 250px;
+    margin-top: 5px;
+}
+
+.card p {
+    color: gray;
+    font-size: 25px;
+}
+
+.comprar-button{
+    font-size: 15px;
+    border: none;
+    padding: 20px;
+    color: white;
+    background-color: rgba(3, 68, 3, 0.822);
+    cursor: pointer;
+    width: 100%;
+
+
+}
+.comprar-button:hover {
+    opacity: 0.7;
+}
+
+
+.modal-container {
+    width: 60%;
+    margin: 0 20%;
+    max-height: 80vh;
+    color:#fafaf9;
+    background-color: rgb(53, 71, 50);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 2%;
+}
+
+.modal-container::-webkit-scrollbar{
+    display: none;
+}
+
+.modal-header{
+    display: flex;
+    justify-content:space-around;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.modal-title {
+    justify-self: start;
+}
+
+.modal-button{
+    margin: 4%;
+    cursor:pointer;
+    
+}
+
+.modal-contenido{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 10px;
+    font-size: 20px;
+
+}
+
+.modal-container > div > img{
+    height: 150px;
+    width: 150px;
+}
+
+.total-carrito{
+    display: flex;
+    justify-content:space-around;
+    color: white;
+    width: 100%;
+}
+
+.cantidad-carrito{
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 5px;
+    top: 35px;
+    right: 12px;
+    position: absolute;
+    display: none;
+}
+
+.finalizar{
+    font-size: 20px;
+    background-color:  rgba(3, 68, 3, 0.822);
+    color: white;
+    border-radius: 10%;
+    padding: 10px;
+    border: none;
+    margin: 2%;
+    cursor:pointer;
+}

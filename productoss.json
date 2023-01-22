@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "nombre": "Rosal de pie",
+        "precio": 950,
+        "img": "img/rosaldepie.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 2,
+        "nombre": "Rosa Arbustiva",
+        "precio": 750,
+        "img": "img/Rosa-arbustiva.png",
+        "cantidad": 1
+    },
+    {
+        "id": 3,
+        "nombre": "Rosal Naranja",
+        "precio": 420,
+        "img": "img/rosa-naranja.jpeg",
+        "cantidad": 1
+    },
+    {
+        "id": 4,
+        "nombre": "Rosal Mini",
+        "precio": 660,
+        "img": "img/rosal-mini.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 5,
+        "nombre": "Begonia Rex",
+        "precio": 890,
+        "img": "img/begonia-rex4.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 6,
+        "nombre": "Begonia Rex",
+        "precio": 890,
+        "img": "img/begonia-rexA.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 7,
+        "nombre": "Oxalis",
+        "precio": 690,
+        "img": "img/planta17.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 8,
+        "nombre": "Arbol de Jade",
+        "precio": 990,
+        "img": "img/arbol-jade.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 9,
+        "nombre": "Echeveria Red",
+        "precio": 1100,
+        "img": "img/echeveria-red.jpg",
+        "cantidad": 1
+    }
+]
